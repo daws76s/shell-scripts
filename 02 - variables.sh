@@ -1,5 +1,5 @@
 #!/bin/bash
 
- IFCONFIG=$(ifconfig-a)
+ IFCONFIG=$(ifconfig)
 
  echo "script is running ${IFCONFIG}
