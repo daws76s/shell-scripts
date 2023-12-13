@@ -1,5 +1,5 @@
 #!/bin/bash
 
- DATE=$(date)
+ IFCONFIG=$(ifconfig-a)
 
- echo "script is running: ${DATE}"
+ echo "script is running ${IFCONFIG}
