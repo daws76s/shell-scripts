@@ -2,4 +2,4 @@
 
  IFCONFIG=$(ifconfig)
 
- echo "script is running ${IFCONFIG}
+ echo "script is running: ${IFCONFIG}"
