@@ -1,5 +1,11 @@
 #!/bin/bash
 
- SAI=$(ifconfig)
+ $number=$1
 
- echo "script is running: ${SAI}"
+ if [ $number -gt 100]
+ then
+
+   echo "given number $number is greater than 100"
+ else
+   echo "given number $number is greater than 100"
+fi  
